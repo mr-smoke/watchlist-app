@@ -7,7 +7,7 @@ const Watched = () => {
 
   return (
     <div className="movies-container">
-      {watched.length === 0 && <h2>No movies in your watched list</h2>}
+      {watched.length === 0 && <h2>No movies found in watched list.</h2>}
       {watched.map((movie) => (
         <MovieCard movie={movie} key={movie.id} type="watched" />
       ))}

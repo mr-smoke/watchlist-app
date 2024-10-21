@@ -3,11 +3,10 @@ const Header = () => {
     <header>
       <div className="header-inner">
         <div className="header-left">
-          <img
-            src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_short-8e7b30f73a4020692ccca9c88bafe5dcb6f8a62a4c6bc55cd9ba82bb2cd95f6c.svg"
-            alt="Spotify Logo"
-            className="logo"
-          />
+          <div className="logo">
+            <img src="/logo.png" alt="Spotify Logo" className="logo" />
+            <h1>Watcher</h1>
+          </div>
           <a href="/">Home</a>
         </div>
         <div className="header-right">
